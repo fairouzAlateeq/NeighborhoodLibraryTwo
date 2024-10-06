@@ -9,13 +9,6 @@
       <change afterPath="$PROJECT_DIR$/../LoopExercises/src/main/java/com/ps/DoWhileLoop.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LoopExercises/src/main/java/com/ps/ForLoop.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LoopExercises/src/main/java/com/ps/WhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SimpleClass/src/main/java/com/ps/CellPhone.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WeekOne_review/src/main/java/com/ps/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../WorkshopOne_FinancialCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../WorkshopOne_FinancialCalculator/.idea/workspace.xml" afterDir="false" />
@@ -45,15 +38,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/fairo/OneDrive/Desktop/Yearup courses/Java/java-development/workshops/workbook-2/NeighborhoodLibraryTwo"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fairo/OneDrive/Desktop/Yearup courses/Java/java-development/workshops/workbook-2/NeighborhoodLibraryTwo&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
