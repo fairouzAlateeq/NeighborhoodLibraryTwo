@@ -60,22 +60,27 @@ public class Main {
             }
 
        public static void checkOutABook( Book[] book) {
-               showAvailableBooks(inventory);
-               System.out.println("what book");
+
+scanny.nextLine();
+               System.out.println("what book? ");
                String bookRes = scanny.nextLine();
+
                System.out.println("You selected: " + bookRes);
+
                 for (Book item: inventory) {
                     if (item != null && item.title.equalsIgnoreCase(bookRes)) {
                         item.isCheckedOut = true;
-                        System.out.println("you checked: "+ item.title + item.isCheckedOut);
+                        System.out.println("you checked: "+ item.title);
+
                         System.out.println(" Wahts your name? ");
                         String userName = scanny.nextLine();
                         item.setCheckedOutTo(userName);
+
+                        System.out.println("Book '" + item.title + "' is now checked out to: " + item.checkedOutTo);
+                        System.out.println(item);
                         break;
                     }
            }
-                // change that book ischeckout to true
-                // changed checkoutto to username
             }
 
 }

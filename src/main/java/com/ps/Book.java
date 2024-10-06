@@ -18,7 +18,9 @@ public class Book{
     }
     @Override
     public String toString() {
-        return "Title: " + title + ", Checked Out: " + isCheckedOut;
+        return "ID: " + ID + ", ISBN: " + isbn + ", Title: " + title +
+                ", Checked Out: " + isCheckedOut +
+                ", Checked Out To: " + (checkedOutTo != null ? checkedOutTo : "N/A");
     }
 
 
