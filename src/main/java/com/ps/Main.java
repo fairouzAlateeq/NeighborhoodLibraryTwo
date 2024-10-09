@@ -20,16 +20,17 @@ public class Main {
         inventory[3] = book3;
         inventory[4] = book4;
         inventory[5] = book5;
-
+        int mainMenuChoice;
+        do {
 
         System.out.println("Hello, what would you like to do?");
         System.out.println("1. View Available books");
         System.out.println("2. Show unavailable books:");
         System.out.println("3. exit");
 
-        int mainMenuChoice = scanny.nextInt();
+        mainMenuChoice = scanny.nextInt();
 
-        switch (mainMenuChoice){
+         switch (mainMenuChoice){
             case 1:
                 showAvailableBooks(inventory);
                 break;
@@ -40,24 +41,33 @@ public class Main {
                 break;
             default:
                 System.out.println("choose 1,2 or 3 honey");
+
         }
+        } while (mainMenuChoice != 3);
+         scanny.close();
 
     }
+
+    public static void showCheckedOutBooks(Book[] book) {
+        System.out.println("Books Currently Checked Out:");
+        for (Book books : inventory) {
+            if (books != null && books.isCheckedOut == true){
+                System.out.println(books);
+            }}
+    }
+
     public static void showAvailableBooks(Book[] books) {
         for (Book book : inventory) {
-            if (book != null && !book.isCheckedOut())
+            if (book != null && !book.isCheckedOut)
                 System.out.println(book);
         }
         System.out.println("would you like to check out a book? 1 for yes 2 for no ");
         int res = scanny.nextInt();
-        if (res == 1)
+        if (res == 1){
         checkOutABook(inventory);
+        }
     }
-       public static void showCheckedOutBooks(Book[] book) {
-           for (Book books : inventory)
-           if (books.isCheckedOut == true)
-           System.out.println(book);
-            }
+
 
        public static void checkOutABook( Book[] book) {
 

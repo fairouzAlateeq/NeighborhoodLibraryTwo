@@ -13,8 +13,8 @@ public class Book{
         this.ID = ID;
         this.isbn = isbn;
         this.title = title;
-        this.isCheckedOut = false;
-        this.checkedOutTo = "";
+        this.isCheckedOut = isCheckedOut;
+        this.checkedOutTo = checkedOutTo;
     }
     @Override
     public String toString() {
